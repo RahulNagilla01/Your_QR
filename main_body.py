@@ -18,3 +18,8 @@ if type_validation:
     your_qr = qrcode.make(url)
     type(your_qr)
     your_qr.save("Your_QrCode.png")
+
+else:
+    print("please enter valid input types i.e. strings")
+
+
