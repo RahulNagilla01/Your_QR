@@ -1,25 +1,10 @@
-import qrcode
-import tkinter
-import turtle
+import qrcode 
 
-try:
-    name = str(input("Please enter your name: "))
-    url = str(input("Please enter your url"))
-except KeyboardInterrupt:
-    print("\nInput was interrupted. Exiting the program.")
-    exit()
-def type_validation(name,url):
-    if type(name) == str and type(url) == str:
-        return True
-    else:
-        return False
+title = input()
+url = input()
+
+def making_qr(url, title):
+    qr_save = qrcode.make(url)
+    qr_save.save("qr-img.jpg")  
+    return qr_save
     
-if type_validation:
-    your_qr = qrcode.make(url)
-    type(your_qr)
-    your_qr.save("Your_QrCode.png")
-
-else:
-    print("please enter valid input types i.e. strings")
-
-
