@@ -8,3 +8,5 @@ def making_qr(url, title):
     qr_save.save("qr-img.jpg")  
     return qr_save
     
+def qr_saved():
+    return qr_saved 
