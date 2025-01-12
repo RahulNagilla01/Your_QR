@@ -10,3 +10,5 @@ def making_qr(url, title):
     
 def qr_saved():
     return qr_saved 
+
+making_qr("Youtube", "Welcome to Youtube")
