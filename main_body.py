@@ -14,4 +14,6 @@ def qr_saved():
 
 making_qr("Youtube", "Welcome to Youtube")
 #making a saved qr in the directory
-m
+
+def output():
+    return none 
