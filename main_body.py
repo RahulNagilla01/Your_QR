@@ -17,3 +17,6 @@ making_qr("Youtube", "Welcome to Youtube")
 
 def output():
     return none 
+
+def main_output():
+    return x
