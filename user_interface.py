@@ -2,3 +2,5 @@ import tkinter
 import turtle
 
 main_frame = tk.create()
+def main(main_frame):
+  return none
