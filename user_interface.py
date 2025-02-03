@@ -8,3 +8,5 @@ def main(main_frame):
 def streak1():
   return none
   
+def streak2():
+  return none
