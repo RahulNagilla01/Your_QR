@@ -8,7 +8,9 @@ if url == title:
 
 
 making_qr("Youtube", "Welcome to Youtube")
-#making a saved qr in the directory
+
+
+qr()
 
 def output():
     return none 
