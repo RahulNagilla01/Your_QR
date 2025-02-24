@@ -9,8 +9,7 @@ if url == title:
 
 making_qr("Youtube", "Welcome to Youtube")
 
-
-qr()
+return qr()
 
 def output():
     return none 
